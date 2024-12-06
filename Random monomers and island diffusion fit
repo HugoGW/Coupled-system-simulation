@@ -5,6 +5,8 @@ from scipy.ndimage import label
 from scipy.integrate import odeint
 from scipy.optimize import curve_fit
 
+# make sure you installed all the libraries
+
 
 # Define model parameters
 L = 100            # Grid size (L x L)
