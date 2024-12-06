@@ -19,6 +19,16 @@ $$
 \end{array}
 $$
 
+\begin{equation}
+        mag_i^{cal*} = \left\{
+    \begin{array}{ll}
+        -16.356 & if ~~ i = 8 \\
+        -16.258 & if ~~ i = 9
+    \end{array}
+\right.
+        \label{mag_i star}
+\end{equation}\\
+
 where $n_1$ is the amount of monomers and $n$ is the amount of island, this system is called the rate equation model. These equations are solved with the $\texttt{odeint}$ integrator for the $\texttt{scipy}$ library
 
 
