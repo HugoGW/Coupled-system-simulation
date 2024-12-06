@@ -13,12 +13,10 @@ When a monomer meet an island, it becomes part of the island and make it bigger.
 It exists a system of coupled equations that allows us to know the amount of monomers and island according to time :
 
 $$
-\left\{
-    \begin{array}{ll}
-        \displaystyle \frac{dn_1}{dt} = F_A - F_D - 2D_1n_1^2 - D_1n_1n - 2\alpha F_A n_1 - \alpha F_A n ~~~~ (1)\\
-        \displaystyle \frac{dn}{dt} = D_1n_1^2 + \alpha F_A n_1 ~~~~ (2)
-    \end{array}
-\right.
+\begin{array}{ll}
+    \displaystyle \frac{dn_1}{dt} = F_A - F_D - 2D_1n_1^2 - D_1n_1n - 2\alpha F_A n_1 - \alpha F_A n ~~~~ (1)\\
+    \displaystyle \frac{dn}{dt} = D_1n_1^2 + \alpha F_A n_1 ~~~~ (2)
+\end{array}
 $$
 
 where $n_1$ is the amount of monomers and $n$ is the amount of island, this system is called the rate equation model. These equations are solved with the $\texttt{odeint}$ integrator for the $\texttt{scipy}$ library
