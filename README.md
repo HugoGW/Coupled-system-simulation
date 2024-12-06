@@ -21,7 +21,7 @@ $$
 \right.
 $$
 
-where $n_1$ is the amount of monomers and $n$ is the amount of island, this system is called the rate equation model. These equations are solved with the \texttt{odeint} integrator for the \texttt{scipy} library
+where $n_1$ is the amount of monomers and $n$ is the amount of island, this system is called the rate equation model. These equations are solved with the $\texttt{odeint}$ integrator for the $\texttt{scipy}$ library
 
 
 
