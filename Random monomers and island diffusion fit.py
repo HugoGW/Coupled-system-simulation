@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation, FFMpegWriter
+import matplotlib.animation as animation
 from scipy.ndimage import label
 from scipy.integrate import odeint
 from scipy.optimize import curve_fit
